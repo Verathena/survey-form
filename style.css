@@ -1,0 +1,150 @@
+html {
+    font-family: "Montserrat", sans-serif;
+  }
+  /*
+    1. Use a more-intuitive box-sizing model.
+  */
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+  
+  /*
+    2. Remove default margin
+  */
+  * {
+    margin: 0;
+  }
+  
+  /*
+      3. Allow percentage-based heights in the application
+    */
+  html,
+  body {
+    height: 100%;
+  }
+  
+  /*
+    7. Remove built-in form typography styles
+  */
+  input,
+  button,
+  textarea,
+  select {
+    font: inherit;
+  }
+  
+  /* GIVE BODY BACKGROUND IMAGE */
+  body {
+    background-image: url("aqua-image.jpg");
+    background-size: cover;
+    background-repeat: contain;
+    background-color: white;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    color: #0d0e0f;
+  }
+  
+  /*
+    8. Avoid text overflows
+  */
+  p,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    overflow-wrap: break-word;
+  }
+  /* CENTER THE HEADER */
+  .header {
+    text-align: center;
+    color: #f2cbbc;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  
+  /* SURVEY FORM STYLES */
+  
+  form {
+    background-image: linear-gradient(90deg, #6611e0, #039084, #b179a1);
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 30px;
+  }
+  
+  .form-control {
+    text-align: left;
+    margin-bottom: 24px;
+  }
+  
+  .form-control label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .form-control input,
+  .form-control select,
+  .form-control textarea {
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 10px;
+    width: 95%;
+  }
+  
+  .submit-btn,
+  .form-control input[type="radio"],
+  .form-control input[type="checkbox"] {
+    display: inline-block;
+    width: auto;
+  }
+  
+  /* CHANGE BACKGROUND COLOR OF INPUT FIELD */
+  input,
+  select {
+    background-color: #f2cbbc;
+  }
+  
+  /* CHANGE COLOR OF INPUT FIELD TEXT */
+  input[type] {
+    color:#942d3f;
+    font-weight: bolder;
+  }
+  
+  /* MAKE LABELS BOLDER */
+  label {
+    font-weight: bolder;
+  }
+  
+  /* STYLE SUBMIT FEEDBACK BUTTON */
+  .submit-btn {
+    border-radius: 5px;
+    padding: 10px;
+    color: whitesmoke;
+    width: 95%;
+    border: 2px solid purple;
+    font-weight: bolder;
+    background-image: linear-gradient(-90deg, #6611e0, #039084, #b179a1);
+  }
+  
+  .submit-btn:hover{
+    color: gold;
+    background: purple;
+  }
+  
+  /* ADD SPACE BETWEEN CHECKBOXES AND RADIO BUTTONS */
+  input[type=checkbox] + input[type=checkbox] {
+    margin-left: 12px;
+  }
+  
+  .radio {
+    margin-left: 20px;
+  }
+  
+  /* BOX SHADOW FOR FORM CONTAINER */
+  .form-wrapper{
+    box-shadow: -15px -10px 10px #a12193;
+  }
+  

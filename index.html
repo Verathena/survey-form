@@ -1,32 +1,34 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Stutern Feedback/Survey Form</title>
-
-    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="style.css">
 </head>
+
+<h1 class="header">Stutern Feedback Form</h1>
 
 <body>
     <!-- FORM -->
     <section>
 
-        <form>
+        <form class="form-wrapper">
             <div class="form-control">
-                <label>First name </label>
+                <label>First Name </label>
                 <input type="text">
             </div>
             <div class="form-control">
-                <label>Last name </label>
+                <label>Last Name </label>
                 <input type="text">
             </div>
             <div class="form-control">
-                <label>Email address </label>
+                <label>Email Address </label>
                 <input type="email">
             </div>
             <div class="form-control">
-                <label>Phone number </label>
+                <label>Phone Number </label>
                 <input type="number">
             </div>
             <div class="form-control">
@@ -43,16 +45,16 @@
             <div class="form-control">
                 <label for="occupation"> Select which best describes you</label>
                 <input type="radio" name="occupation" /> <span>Student</span>
-                <input type="radio" name="occupation" /> <span>Working Class</span>
-                <input type="radio" name="occupation" /> <span>Self Employed</span>
+                <input type="radio" name="occupation" class='radio'/> <span>Working Class</span>
+                <input type="radio" name="occupation" class='radio'/> <span>Self Employed</span>
 
             </div>
 
             <div class="form-control">
                 <label>Would you recommend Stutern to a friend?</label>
                 <!-- <label> -->
-                <input type="radio" /><span for="yes">Yes</label>
-                    <input type="radio">No</input>
+                <input type="radio"/><span for="yes">Yes</label>
+                <input type="radio" class="radio">No</input>
                     <!-- </label> -->
             </div>
 
@@ -72,9 +74,9 @@
                 <textarea cols="10" rows="4"></textarea>
             </div>
 
-            <div class="form-control">
-                <button>
-                    Submit feedback
+            <div class="form-control" >
+                <button class="submit-btn">
+                    Submit Feedback
                 </button>
             </div>
 
